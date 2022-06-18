@@ -16,6 +16,6 @@ class MyBot(commands.Bot):
         print(f"{self.user.name} is Ready.")
 
 if __name__ == '__main__':
-    bot = MyBot(command_prefix='n!')
+    bot = MyBot(command_prefix='d!')
     bot.load_extension('dispander')
-    bot.run(os.environ['']) # Botのトークン
+    bot.run(os.environ['TOKEN']) # Botのトークン
